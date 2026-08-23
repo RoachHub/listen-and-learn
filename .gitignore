@@ -1,0 +1,32 @@
+# Dependencies — thousands of files, reinstallable with one command
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets — API keys, tunnel URLs, anything private
+.env
+*.key
+
+# Data — licence terms may restrict redistribution.
+# Document where to obtain it in the README instead.
+data/*.csv
+data/*.xml
+data/*.json
+
+# Build output
+dist/
+build/
+
+# Editor and OS clutter
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.bin
+*.safetensors
