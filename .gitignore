@@ -13,6 +13,7 @@ __pycache__/
 data/*.csv
 data/*.xml
 data/*.json
+!data/README.md
 
 # Build output
 dist/
